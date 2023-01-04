@@ -32,7 +32,7 @@ const ChatContainer = () => {
     }, [userData]);
 
     const connect = () => {
-        const Sock = new SockJS('http://localhost:8080/ws');
+        const Sock = new SockJS('http://https://b3ckend.herokuapp.com/ws');
         stompClient = over(Sock);
         stompClient.connect({}, onConnected, onError);
     };
