@@ -1,3 +1,3 @@
 export const HOST = {
-    backend_api: 'https://b3ckend.herokuapp.com/',
+    backend_api: 'https://b3ckend.herokuapp.com',
 };
